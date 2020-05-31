@@ -52,7 +52,6 @@ RUN packages="                                               \
     kodi-pvr-dvblink                                         \
     kodi-pvr-dvbviewer                                       \
     kodi-pvr-filmon                                          \
-    kodi-pvr-hdhomerun                                       \
     kodi-pvr-hts                                             \
     kodi-pvr-iptvsimple=3.9.8-1~focal                        \
     kodi-pvr-mediaportal-tvserver                            \
