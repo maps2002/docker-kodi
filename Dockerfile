@@ -45,25 +45,8 @@ RUN packages="                                               \
     ca-certificates                                          \
     kodi                                                     \
     kodi-eventclients-kodi-send                              \
-    kodi-game-libretro                                       \
-    kodi-game-libretro-beetle-pce-fast                       \
-    kodi-game-libretro-beetle-vb                             \
-    kodi-game-libretro-beetle-wswan                          \
-    kodi-game-libretro-bsnes-mercury-accuracy                \
-    kodi-game-libretro-bsnes-mercury-balanced                \
-    kodi-game-libretro-bsnes-mercury-performance             \
-    kodi-game-libretro-desmume                               \
-    kodi-game-libretro-fbalpha                               \
-    kodi-game-libretro-fbalpha2012                           \
-    kodi-game-libretro-fuse                                  \
-    kodi-game-libretro-gambatte                              \
-    kodi-game-libretro-prboom                                \
-    kodi-game-libretro-stella                                \
-    kodi-game-libretro-tgbdual                               \
-    kodi-game-libretro-vba-next                              \
-    kodi-game-libretro-virtualjaguar                         \
-    kodi-inputstream-adaptive                                \
-    kodi-inputstream-rtmp                                    \
+    kodi-game-libretro                                       \  
+    kodi-inputstream-adaptive                                \   
     kodi-peripheral-joystick                                 \
     kodi-pvr-argustv                                         \
     kodi-pvr-dvblink                                         \
@@ -71,7 +54,7 @@ RUN packages="                                               \
     kodi-pvr-filmon                                          \
     kodi-pvr-hdhomerun                                       \
     kodi-pvr-hts                                             \
-    kodi-pvr-iptvsimple                                      \
+    kodi-pvr-iptvsimple=3.9.8-1~focal                        \
     kodi-pvr-mediaportal-tvserver                            \
     kodi-pvr-mythtv                                          \
     kodi-pvr-nextpvr                                         \
@@ -81,20 +64,9 @@ RUN packages="                                               \
     kodi-pvr-sledovanitv-cz                                  \
     kodi-pvr-stalker                                         \
     kodi-pvr-teleboy                                         \
-    kodi-pvr-vbox                                            \
-    kodi-pvr-vdr-vnsi                                        \
-    kodi-pvr-vuplus                                          \
+    kodi-pvr-vbox                                            \ 
     kodi-pvr-wmc                                             \
-    kodi-pvr-zattoo                                          \
-    kodi-screensaver-asteroids                               \
-    kodi-screensaver-asterwave                               \
-    kodi-screensaver-biogenesis                              \
-    kodi-screensaver-cpblobs                                 \
-    kodi-screensaver-greynetic                               \
-    kodi-screensaver-matrixtrails                            \
-    kodi-screensaver-pingpong                                \
-    kodi-screensaver-pyro                                    \
-    kodi-screensaver-stars                                   \
+    kodi-pvr-zattoo                                          \ 
     locales                                                  \
     pulseaudio                                               \
     tzdata                                                   \
