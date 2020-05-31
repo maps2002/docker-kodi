@@ -18,7 +18,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-FROM ubuntu:bionic
+FROM ubuntu:focal
 
 # install the team-xbmc ppa
 RUN apt-get update                                                        && \
@@ -43,7 +43,7 @@ RUN apt-get update                                                        && \
 RUN packages="                                               \
                                                              \
     ca-certificates                                          \
-    kodi=2:18.6+*                                            \
+    kodi                                                     \
     kodi-eventclients-kodi-send                              \
     kodi-game-libretro                                       \
     kodi-game-libretro-beetle-pce-fast                       \
@@ -97,7 +97,9 @@ RUN packages="                                               \
     kodi-screensaver-stars                                   \
     locales                                                  \
     pulseaudio                                               \
-    tzdata"                                               && \
+    tzdata                                                   \
+    libxv1                                                   \
+    va-driver-all"                                        && \
                                                              \
     apt-get update                                        && \
     apt-get install -y --no-install-recommends $packages  && \
